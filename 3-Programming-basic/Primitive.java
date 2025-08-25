@@ -22,8 +22,15 @@ public class Primitive {
         //Double (large decimal numbers)
         double area = 456789.87654;
 
-
         //String (not primitive data type)
         String name = "Tanseer";
+
+        System.out.println(name);
+        System.out.println(area);
+        System.out.println(population);
+        System.out.println(statement);
+        System.out.println(marks);
+        System.out.println(letter);
+        System.out.println(rollno);
     }
 }
