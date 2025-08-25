@@ -10,5 +10,11 @@ public class Conversion {
         float num = input.nextFloat();
         System.out.println(num);
         input.close();
+
+        // java can take care of conversion automatically but if we want to do incompatible conversion we use typecasting
+        // float value to an int wont happen automatically
+        // typecasting:
+        int marks = (int)(95.8f);
+        System.out.println(marks);
     }
 }
