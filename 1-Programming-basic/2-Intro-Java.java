@@ -17,9 +17,10 @@ JDK(JRE(JVM(JIT)))
 
  */
 
- /* Programming basic
+ /* 
 
- 
+ In java memory is located dynamically i.e, at runtime,
+ data stored in heap memory are not continous and therefore there is no concept of pointers 
 
 
   */
