@@ -1,6 +1,7 @@
 // Dynamic array
 // Arrays are of fixed size, when we dont know the size of array we use arraylist to dynamically adjust the size of arrays
 // There is indexing in arraylist
+// An intial capacity is given to an array, when the initial-capacity is full, the array is copied to a new array with 1.5x the size and the reference now points to the new array
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Arraylist {
