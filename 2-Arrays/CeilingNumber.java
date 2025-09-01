@@ -1,3 +1,4 @@
+// Smallest number greater than target
 public class CeilingNumber {
     public static void main(String[] args) {
         int[] nums = {1, 2, 4, 5, 7, 8, 12, 14, 16, 18};

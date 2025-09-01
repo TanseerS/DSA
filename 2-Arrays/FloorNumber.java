@@ -1,3 +1,4 @@
+// greatest number smaller than target
 public class FloorNumber {
 
     public static void main(String[] args) {
