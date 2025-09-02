@@ -13,13 +13,20 @@ public class BubbleSort {
         System.out.println(Arrays.toString(nums));
     };
     static void bubblSort(int[] nums){
+        boolean swapped = false;
         for(int i = 0; i < nums.length -1; i++){
             for(int j = 0; j< nums.length-i-1; j++){
                 if(nums[j] > nums[j+1]){
                     swap(nums, j, j+1);
+                    swapped = true;
+
                 }
             }
+            if(!swapped){
+            break;
         }
+        };
+        
     };
     static void swap(int[] nums, int i, int j) {
         int temp = nums[i];
