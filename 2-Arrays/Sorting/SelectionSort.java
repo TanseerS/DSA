@@ -1,5 +1,6 @@
 // Selection Sort: Select the element and place on the right place
 // Find the max element and place at the end of the array
+// Time Complexity : O(n^2)
 package Sorting;
 
 import java.util.Arrays;
