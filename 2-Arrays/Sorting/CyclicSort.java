@@ -10,10 +10,15 @@ public class CyclicSort{
         System.out.println(Arrays.toString(nums));
     };
     static void sort(int[] nums){
-        for(int i =0; i < nums.length; i++){
-            while(nums[i] != i+1){
-                swap(nums, i, nums[i]-1);
+        int i = 0;
+        while(i < nums.length){
+            int correctIndex = nums[i] - 1;
+            if(nums[i] != nums[correctIndex]){
+                swap(nums, i, correctIndex);
+            }else{
+                i++;
             }
+            
         }
     };
     static void swap(int[] nums, int a, int b){
