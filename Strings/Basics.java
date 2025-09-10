@@ -12,5 +12,13 @@ public class Basics {
         System.out.println('a'+'b');
         System.out.println("a"+"b");
         System.out.println("a"+1);
+
+        //String Builders: String are immutable but builders are mutable with dynamic size
+        StringBuilder build = new StringBuilder();
+        for(int i = 0; i < 26; i++){
+            char ch = (char)('a'+i);
+            build.append(ch);
+        }
+        System.out.println(build.toString());
     }
 }
