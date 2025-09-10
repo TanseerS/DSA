@@ -8,6 +8,9 @@
 package Strings;
 public class Basics {
     public static void main(String[] args) {
-        
+        //String concatenation
+        System.out.println('a'+'b');
+        System.out.println("a"+"b");
+        System.out.println("a"+1);
     }
 }
