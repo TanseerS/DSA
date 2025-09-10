@@ -20,5 +20,23 @@ public class Basics {
             build.append(ch);
         }
         System.out.println(build.toString());
+
+        //Palindrome:
+        String pal = "abcba";
+        boolean ans=  isPallindrome(pal);
+        System.out.println(ans);
+    };
+    static boolean isPallindrome(String pal){
+        int start = 0;
+        int end = pal.length()-1;
+        while(start <= end){
+            if(pal.charAt(start) == pal.charAt(end)){
+                start += 1;
+                end -=1;
+            }else{
+                return false;
+            }
+        };
+        return true;
     }
 }
